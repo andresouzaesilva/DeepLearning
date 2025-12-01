@@ -6,13 +6,6 @@ Mais informações sobre o programa podem ser encontradas no site do PPGCC: [PPG
 
 ---
 
-## Alunos:
-
-- André Silva  
-- Carlos Eduardo Nogueira  
-- Elton Júnior
-
----
 
 # Índice
 
