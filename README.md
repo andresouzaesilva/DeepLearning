@@ -14,6 +14,13 @@ Mais informações sobre o programa podem ser encontradas no site do PPGCC: [PPG
 
 ---
 
+# Índice
+
+- [Descrição](#descrição)
+- [Arquitetura e Funcionamento da Aplicação](#arquitetura-e-funcionamento-da-aplicação)
+- [Instalação e Execução](#instalação)
+- [Executando o Benchmark de ASRs](#executando-o-benchmark-de-asrs)
+
 ## Descrição
 Este projeto tem como objetivo **extrair informações de textos e áudios** e estruturá-las no **formato de tabelas**, facilitando a organização e análise de dados não estruturados. 
 
