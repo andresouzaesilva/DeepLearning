@@ -6,5 +6,6 @@ def prepare_audio_for_vosk(input_path, output_path="temp_vosk.wav"):
     audio = AudioSegment.from_file(input_path)
     audio = audio.set_channels(1)
     audio = audio.set_frame_rate(16000)
+    audio = audio.set_sample_width(2)
     audio.export(output_path, format="wav")
     return output_path

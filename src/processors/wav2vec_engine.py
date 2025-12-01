@@ -16,8 +16,6 @@ class Wav2VecTranscriber(Transcriber):
         if not os.path.exists(audio_path):
             raise FileNotFoundError(f"Arquivo não encontrado: {audio_path}")
         
-        # O pipeline aceita o caminho do arquivo diretamente
         result = self.pipe(audio_path)
         
-        # O retorno pode variar ligeiramente dependendo da versão, mas geralmente é um dict
         return result.get("text", "")

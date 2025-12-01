@@ -8,5 +8,5 @@ wheels/
 
 # Virtual environments
 .venv
-.env copy
+.env
 models/
